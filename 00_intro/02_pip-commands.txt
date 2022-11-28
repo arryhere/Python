@@ -1,0 +1,6 @@
+/*
+• Pip commands
+
+• pip list -v                                                       // list packages installed
+• python -m pip install --upgrade pip                               // update pip
+*/
