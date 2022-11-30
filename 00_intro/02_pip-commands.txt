@@ -3,4 +3,7 @@
 
 • pip list -v                                                       // list packages installed
 • python -m pip install --upgrade pip                               // update pip
+• pip install <pkg_name>                                            // install packages
+• pip uninstall <pkg_name>                                          // uninstall packages
+• 
 */
