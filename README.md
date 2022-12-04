@@ -1,3 +1,3 @@
 # Python
-Python programming course !
-free to use :)
+- Python programming course !
+- free to use :)
