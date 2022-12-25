@@ -9,6 +9,7 @@ print(text2.format(name, country))  # Hello my name is India, and i am from Arij
 
 
 print(f'Hello my name is {name}, and i am from {country}')  # Hello my name is Arijit, and i am from India
+print(f'Hello my name is {{name}}, and i am from {{country}}')  # Hello my name is {name}, and i am from {country}
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
