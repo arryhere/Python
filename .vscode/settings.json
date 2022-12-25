@@ -2,6 +2,7 @@
   "editor.tabSize": 2,
   "editor.renderWhitespace": "trailing",
   "editor.rulers": [130],
+  "terminal.integrated.scrollback": 100000000,
   "liveServer.settings.port": 5501,
   "prettier.printWidth": 130,
   "python.formatting.autopep8Args": ["--indent-size=2", "--max-line-length", "130", "--experimental"]

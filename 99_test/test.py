@@ -1,5 +1,1 @@
-a = 'arry'
-
-a[0] = 'r'
-
-print(a)
+print(-17%3)
