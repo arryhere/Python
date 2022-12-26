@@ -26,7 +26,7 @@ while check_y:
     print('Please anter a valid number !')
 
 while check_opr:
-  opr = input('Enter your choice of operation: +(add) -(sub) +*(mul) /(div) %(modulo) //(floor div) **(exp): ')
+  opr = input('Enter your choice of operation: +(add) -(sub) *(mul) /(div) %(modulo) //(floor div) **(exp): ')
   opr_list = ['+', '-', '*', '/', '%', '//', '**']
   opr_res_list = [x+y, x-y, x*y, x/y, x % y, x//y, x**y]
 
