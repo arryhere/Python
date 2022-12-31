@@ -22,8 +22,12 @@ greet = '''Hello!
 my name is 
 Arijit Das'''
 
-print(greet)  # Hello!  my name is  Arijit Das
-
+print(greet)
+'''
+Hello!
+my name is
+Arijit Das
+'''
 
 print('-------------------------------------------------------------------------------------------------------------------------')
 
