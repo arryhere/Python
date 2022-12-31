@@ -1,3 +1,8 @@
+'''
+• Arithmetic Operators
+• Used to performing mathematical operations like addition, subtraction, multiplication, and division
+'''
+
 add = 10 + 5
 sub = 10 - 5
 mul = 10 * 5
@@ -13,3 +18,6 @@ print(div)            # 3.3333333333333335
 print(floor_div)      # 3
 print(modulo)         # 2
 print(exp)            # 125
+
+
+print('-------------------------------------------------------------------------------------------------------------------------')
