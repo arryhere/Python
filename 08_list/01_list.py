@@ -4,11 +4,6 @@
 • They store multiple items in a single variable
 • For context its's just like Arrays from other programming languages
 • Lists are mutable, we can change them after declaration
-
-• List indexing:
-  • ['p', 'y', 't', 'h', 'o', 'n']
-  •   0    1    2    3    4    5
-  •  -6   -5   -4   -3   -2   -1
 '''
 
 
@@ -16,6 +11,10 @@
 • indexing in lists
 • list[i:j:k]
 • i: inclusive, j: exclusive, k: jump
+• List indexing:
+  • ['p', 'y', 't', 'h', 'o', 'n']
+  •   0    1    2    3    4    5
+  •  -6   -5   -4   -3   -2   -1
 '''
 nums = [3, 5, 7]
 print(nums, type(nums))                 # [3, 5, 7] <class 'list'>
@@ -62,7 +61,7 @@ print('-------------------------------------------------------------------------
 
 '''
 • List comprehension
-• List comprehension is used to createnew lists from other iterables like lists, tuples, dictionaries, sets, and even arrays and strings
+• List comprehension is used to create new lists from other iterables like lists, tuples, dictionaries, sets, and even arrays and strings
 • 
 '''
 list = [i for i in range(0, 5)]
@@ -77,6 +76,20 @@ print(list)  # [1, 3, 5, 7, 9]
 languages = ['python', 'javascript', 'c', 'c++', 'java', 'carbon']
 print([e for e in languages if len(e) <= 1])  # ['c']
 print([e for e in languages if 'o' in e])     # ['python', 'carbon']
+
+
+print('-------------------------------------------------------------------------------------------------------------------------')
+
+
+'''
+• List concatenation
+'''
+
+list1 = [1, 2, 3, 4, 5]
+list2 = ['hello', 'world']
+
+list3 = list1 + list2
+print(list3)  # [1, 2, 3, 4, 5, 'hello', 'world']
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
