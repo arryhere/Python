@@ -8,20 +8,20 @@
   •   0    1    2    3    4    5
   •  -6   -5   -4   -3   -2   -1
 '''
-list = ['p', 'y', 't', 'h', 'o', 'n']
+lst = ['p', 'y', 't', 'h', 'o', 'n']
 
-print(list[0])                  # p
-print(list[0:])                 # ['p', 'y', 't', 'h', 'o', 'n']
-print(list[:])                  # ['p', 'y', 't', 'h', 'o', 'n']
-print(list[:3])                 # ['p', 'y', 't']
-print(list[:-3])                # ['p', 'y', 't']
-print(list[0: len(list)])       # ['p', 'y', 't', 'h', 'o', 'n']
-print(list[0:-1])               # ['p', 'y', 't', 'h', 'o']
-print(list[0: len(list) - 1])   # ['p', 'y', 't', 'h', 'o']
-print(list[2:5])                # ['t', 'h', 'o']
-print(list[-4:-1])              # ['t', 'h', 'o']
-print(list[0:len(list):3])      # ['p', 'h']
-print(list[0::3])               # ['p', 'h']
+print(lst[0])                   # p
+print(lst[0:])                  # ['p', 'y', 't', 'h', 'o', 'n']
+print(lst[:])                   # ['p', 'y', 't', 'h', 'o', 'n']
+print(lst[:3])                  # ['p', 'y', 't']
+print(lst[:-3])                 # ['p', 'y', 't']
+print(lst[0: len(lst)])         # ['p', 'y', 't', 'h', 'o', 'n']
+print(lst[0:-1])                # ['p', 'y', 't', 'h', 'o']
+print(lst[0: len(lst) - 1])     # ['p', 'y', 't', 'h', 'o']
+print(lst[2:5])                 # ['t', 'h', 'o']
+print(lst[-4:-1])               # ['t', 'h', 'o']
+print(lst[0:len(lst):3])        # ['p', 'h']
+print(lst[0::3])                # ['p', 'h']
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
@@ -32,9 +32,9 @@ print('-------------------------------------------------------------------------
 • add object at end of list
 • mutates the original list
 '''
-list = [1, 2, 3, 4, 5]
-list.append(55)
-print(list)  # [1, 2, 3, 4, 5, 55]
+lst = [1, 2, 3, 4, 5]
+lst.append(55)
+print(lst)  # [1, 2, 3, 4, 5, 55]
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
@@ -49,12 +49,12 @@ print('-------------------------------------------------------------------------
 • mutates the original list
 '''
 
-list = [44, 56, 2, 576, 2, 6]
-list.sort()
-print(list)  # [2, 2, 6, 44, 56, 576]
+lst = [44, 56, 2, 576, 2, 6]
+lst.sort()
+print(lst)  # [2, 2, 6, 44, 56, 576]
 
-list.sort(reverse=True)
-print(list)  # [576, 56, 44, 6, 2, 2]
+lst.sort(reverse=True)
+print(lst)  # [576, 56, 44, 6, 2, 2]
 
 fruits = ['banana', 'apple', 'mango', 'guava']
 fruits.sort()
@@ -77,9 +77,9 @@ print('-------------------------------------------------------------------------
 • reverse the order of the list
 • mutates the original list
 '''
-list = [1, '2', [True, False], None, 'python', {'age': 22}]
-list.reverse()
-print(list)  # [None, [True, False], '2', 1]
+lst = [1, '2', [True, False], None, 'python', {'age': 22}]
+lst.reverse()
+print(lst)  # [None, [True, False], '2', 1]
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
@@ -91,10 +91,10 @@ print('-------------------------------------------------------------------------
 • returns the index of the first occurance of the item in the list
 • throws error if item not in list
 '''
-list = [1, 2, 3, 4, 5, 3, 3, 6, 3]
-# print(list.index('2'))              # ValueError: 2 is not in list
-print(list.index(3))                  # 2
-print(list.index(3, 4, -1))           # 5
+lst = [1, 2, 3, 4, 5, 3, 3, 6, 3]
+# print(lst.index('2'))              # ValueError: 2 is not in lst
+print(lst.index(3))                  # 2
+print(lst.index(3, 4, -1))           # 5
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
@@ -105,10 +105,10 @@ print('-------------------------------------------------------------------------
 • returns the count of the number of items present in the list
 '''
 
-list = [1, 2, 3, 4, 1, 1, 3, 4]
-print(list.count(1))    # 3
-print(list.count(4))    # 2
-print(list.count(44))   # 0
+lst = [1, 2, 3, 4, 1, 1, 3, 4]
+print(lst.count(1))    # 3
+print(lst.count(4))    # 2
+print(lst.count(44))   # 0
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
@@ -146,12 +146,12 @@ print('-------------------------------------------------------------------------
 • inserts an item at the given index
 • mutates the original list
 '''
-list = [1, 2, 3, 4, 5]
-list.insert(2, 420)
-print(list)   # [1, 2, 420, 3, 4, 5]
+lst = [1, 2, 3, 4, 5]
+lst.insert(2, 420)
+print(lst)   # [1, 2, 420, 3, 4, 5]
 
-list.insert(99, 69)
-print(list)   # [1, 2, 420, 3, 4, 5, 69]
+lst.insert(99, 69)
+print(lst)   # [1, 2, 420, 3, 4, 5, 69]
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
@@ -163,11 +163,29 @@ print('-------------------------------------------------------------------------
 • mutates the original list whcih gets extended
 '''
 num = [1, 2, 3, 4, 5]
-str = ['hello', 'world']
+s = ['hello', 'world']
 
-num.extend(str)
+num.extend(s)
 
 print(num)  # [1, 2, 3, 4, 5, 'hello', 'world']
+
+
+print('-------------------------------------------------------------------------------------------------------------------------')
+
+
+'''
+• pop()
+• returns the element from the index, default index is last index
+• mutates the original list
+'''
+
+lst = [1, 2, 3, 4, 5]
+
+print(lst.pop())    # 5
+print(lst)          # [1, 2, 3, 4]
+
+print(lst.pop(1))   # 2
+print(lst)          # [1, 3, 4]
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
