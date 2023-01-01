@@ -66,8 +66,24 @@ print('-------------------------------------------------------------------------
 '''
 countries = ("Spain", "Italy", "India", "England", "Germany")
 temp = list(countries)
-temp.append("Russia")   # add item
-temp.pop(3)             # remove item
-temp[2] = "Finland"     # change item
+temp.append("Russia")   # ("Spain", "Italy", "India", "England", "Germany". "Russia")
+temp.pop(3)             # "England"
+temp[2] = "Finland"     # ("Spain", "Italy", "Finland", "Germany". "Russia")
 countries = tuple(temp)
 print(countries)        # ('Spain', 'Italy', 'Finland', 'Germany', 'Russia')
+
+
+print('-------------------------------------------------------------------------------------------------------------------------')
+
+
+'''
+• Tuple concatenation
+'''
+tup1 = (1, 2, 3, 4, 5)
+tup2 = ('hello', 'world')
+
+tup3 = tup1 + tup2
+print(tup3)  # (1, 2, 3, 4, 5, 'hello', 'world')
+
+
+print('-------------------------------------------------------------------------------------------------------------------------')
