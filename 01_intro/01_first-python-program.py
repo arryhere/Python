@@ -16,5 +16,5 @@ comment
 print('I am escape\n\"sequence character\"')
 
 # parameters of print statement
-print('Hey', 'World', sep='-', end='?')
+print('Hey', 'World', sep='-', end='?', flush=True)
 print('Hello')

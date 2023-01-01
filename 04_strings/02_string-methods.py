@@ -1,6 +1,6 @@
 
 '''
-• str[i,j,k]
+• str[i:j:k]
 • string slicing by index
 • i: inclusive j: exclusive, k: jump
 

@@ -47,7 +47,7 @@ print('-------------------------------------------------------------------------
 print(bin(45))    # 0b101101
 print(bin(~45))   # -0b101101 <-46>
 '''
-~ (0)101101 = (1)010010                             -> what we expect to get
+~ (0)101101 = (1)010010                             -> what we expect, but we need to convert it to its 2's complement
 1's complement of 010010 = 101101                   -> invert bits of 010010 excluding the MSB (1)
 2's complement of 101101 = 101110                   -> add 1 bit to 101101
 ~ 0b101101 = -0b101101                              -> thus ~45 = -46
