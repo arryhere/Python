@@ -12,9 +12,18 @@
 '''
 
 
+'''
+• indexing in lists
+• list[i:j:k]
+• i: inclusive, j: exclusive, k: jump
+'''
 nums = [3, 5, 7]
-print(nums, type(nums))           # [3, 5, 7] <class 'list'>
-print(nums[0], nums[1], nums[2])  # 3 5 7
+print(nums, type(nums))                 # [3, 5, 7] <class 'list'>
+print(nums[0], nums[1], nums[2])        # 3 5 7
+
+fruits = ['apple', 'banana', 'guave', 'mango', 'pineapple']
+print(fruits[0:len(fruits) - 1])        # ['apple', 'banana', 'guave', 'mango']
+print(fruits[0:-1:3])                   # ['apple', 'mango']
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
@@ -24,7 +33,7 @@ print('-------------------------------------------------------------------------
 • if clause in lists
 '''
 list = [2, 3.14, True, 'string', None]
-print(list)  # [2, 3.14, True, 'string', None]
+print(list)                             # [2, 3.14, True, 'string', None]
 
 if 2 in list:
   print('yes, 2 is present in list')    # yes, 2 is present in list
@@ -35,19 +44,6 @@ if '2' in list:
   print('yes, 2 is present in list')
 else:
   print('no, 2 is no present in list')  # no, 2 is no present in list
-
-
-print('-------------------------------------------------------------------------------------------------------------------------')
-
-'''
-• indexing in lists
-• list[i:j:k]
-• i: inclusive, j: exclusive, k: jump
-'''
-fruits = ['apple', 'banana', 'guave', 'mango', 'pineapple']
-
-print(fruits[0:len(fruits) - 1])  # ['apple', 'banana', 'guave', 'mango']
-print(fruits[0:-1:3])             # ['apple', 'mango']
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
