@@ -1,5 +1,2 @@
-/*
 • Windows
-
 • python install path: C:\Users\Arijit\AppData\Local\Programs\Python\Python311
-*/
