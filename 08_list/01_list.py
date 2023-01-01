@@ -3,8 +3,13 @@
 • Lists are ordered collection of data items
 • They store multiple items in a single variable
 • For context its's just like Arrays from other programming languages
-• Lists are mutable, we can change them after declaration
+• Lists are mutable, we can change them after initialization
 '''
+
+nums = [3, 5, 7]
+print(nums, type(nums))                 # [3, 5, 7] <class 'list'>
+
+print('-------------------------------------------------------------------------------------------------------------------------')
 
 
 '''
@@ -16,13 +21,13 @@
   •   0    1    2    3    4    5
   •  -6   -5   -4   -3   -2   -1
 '''
-nums = [3, 5, 7]
-print(nums, type(nums))                 # [3, 5, 7] <class 'list'>
-print(nums[0], nums[1], nums[2])        # 3 5 7
-
 fruits = ['apple', 'banana', 'guave', 'mango', 'pineapple']
-print(fruits[0:len(fruits) - 1])        # ['apple', 'banana', 'guave', 'mango']
-print(fruits[0:-1:3])                   # ['apple', 'mango']
+
+print(fruits[0])                        # apple
+fruits[0] = 'papaya'
+print(fruits)                           # ['papaya', 'banana', 'guave', 'mango', 'pineapple']
+print(fruits[0:len(fruits) - 1])        # ['papaya', 'banana', 'guave', 'mango']
+print(fruits[0:-1:3])                   # ['papaya', 'mango']
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')

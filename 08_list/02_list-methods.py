@@ -12,6 +12,9 @@ list = ['p', 'y', 't', 'h', 'o', 'n']
 
 print(list[0])                  # p
 print(list[0:])                 # ['p', 'y', 't', 'h', 'o', 'n']
+print(list[:])                  # ['p', 'y', 't', 'h', 'o', 'n']
+print(list[:3])                 # ['p', 'y', 't']
+print(list[:-3])                # ['p', 'y', 't']
 print(list[0: len(list)])       # ['p', 'y', 't', 'h', 'o', 'n']
 print(list[0:-1])               # ['p', 'y', 't', 'h', 'o']
 print(list[0: len(list) - 1])   # ['p', 'y', 't', 'h', 'o']
@@ -84,13 +87,14 @@ print('-------------------------------------------------------------------------
 
 '''
 • index()
+• parameters: value, start_index(inclusive), end_index(excusive)
 • returns the index of the first occurance of the item in the list
 • throws error if item not in list
 '''
-list = [1, '2', [True, False], None, 'python', {'age': 22}]
-# print(list.index(2))          # ValueError: 2 is not in list
-print(list.index('2'))          # 1
-print(list.index({'age': 22}))  # 5
+list = [1, 2, 3, 4, 5, 3, 3, 6, 3]
+# print(list.index('2'))              # ValueError: 2 is not in list
+print(list.index(3))                  # 2
+print(list.index(3, 4, -1))           # 5
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
