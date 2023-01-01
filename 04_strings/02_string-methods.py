@@ -1,8 +1,8 @@
 
 '''
-• str[i,j]
+• str[i,j,k]
 • string slicing by index
-• i: inclusive j: exclusive
+• i: inclusive j: exclusive, k: jump
 
   A   r   i   j   i   t   <space>   D   a   s
   0   1   2   3   4   5      6      7   8   9
@@ -19,6 +19,7 @@ print(name[1:-3])             # rijit<space>
 print(name[1:-4])             # rijit
 print(name[1:len(name)-4])    # rijit
 print(name[-3:-1])            # Da
+print(name[0:-1:2])           # Aii a
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')

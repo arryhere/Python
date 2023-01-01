@@ -30,7 +30,7 @@ while check_opr:
   opr_list = ['+', '-', '*', '/', '%', '//', '**']
   opr_res_list = [x+y, x-y, x*y, x/y, x % y, x//y, x**y]
 
-  if opr_list.__contains__(opr):
+  if opr in opr_list:
     opr_index = opr_list.index(opr)
     print('The value of', x, opr, y, 'is:', opr_res_list[opr_index])
     check_opr = False
