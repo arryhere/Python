@@ -8,11 +8,12 @@ print(text1.format(name, country))  # Hello my name is Arijit, and i am from Ind
 print(text2.format(name, country))  # Hello my name is India, and i am from Arijit
 
 
-print(f'Hello my name is {name}, and i am from {country}')  # Hello my name is Arijit, and i am from India
+print(f'Hello my name is {name}, and i am from {country}')      # Hello my name is Arijit, and i am from India
 print(f'Hello my name is {{name}}, and i am from {{country}}')  # Hello my name is {name}, and i am from {country}
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
+
 
 num = 45.6784999
 

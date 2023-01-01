@@ -47,24 +47,26 @@ print('-------------------------------------------------------------------------
 print(bin(45))    # 0b101101
 print(bin(~45))   # -0b101101 <-46>
 '''
-NOT of (0)101101 <~45> = (1)010010
-1's complement of 010010 = NOT OF 010010 = 101101
-2's complement of 101101 = 101101 + 1 = 101110
-NOT of 0b101101 <~45> = -0b101101 <-46>
+~ (0)101101 = (1)010010                             -> what we expect to get
+1's complement of 010010 = 101101                   -> invert bits of 010010 excluding the MSB (1)
+2's complement of 101101 = 101110                   -> add 1 bit to 101101
+~ 0b101101 = -0b101101                              -> thus ~45 = -46
 '''
+
+print('-------------------------------------------------------------------------------------------------------------------------')
+
 
 print(bin(-13))   # -0b1101
 print(bin(~-13))  # 0b1100 <12>
 '''
 we store -ve numbers after conversion, so to use -ve numbers we must reverse convert them first
-<-13> = (1)1101
-reverse 2's complement
-NOT of 1101 = 0010
-0010 + 1 = 0011
+-13 = (1)1101                                       -> binary of 13 as stored in python
+1's complement of 1101 = 0010                       -> reverse 1's complement, invert the bits of 1101 excluding the MSB (1)
+2's complement of 0010 = 0011                       -> everse 2's complement, add 1 bit to 0010
 
 now do NOT operation
-~(1)0011 = (0)1100
-NOT of -0b1101 <~13> = 0b1100 <12>
+~ (1)0011 = (0)1100                                 -> final result of bitwise not
+~ -0b1101 = 0b1100                                  -> thus ~-13 = 12
 '''
 
 
