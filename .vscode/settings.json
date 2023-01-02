@@ -5,5 +5,5 @@
   "terminal.integrated.scrollback": 100000000,
   "liveServer.settings.port": 5501,
   "prettier.printWidth": 130,
-  "autopep8.args": ["--indent-size=2", "--max-line-length=130"]
+  "autopep8.args": ["--indent-size=2", "--max-line-length=130", "--experimental"]
 }
