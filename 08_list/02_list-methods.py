@@ -178,7 +178,6 @@ print('-------------------------------------------------------------------------
 • returns the element from the index, default index is last index
 • mutates the original list
 '''
-
 lst = [1, 2, 3, 4, 5]
 
 print(lst.pop())    # 5
