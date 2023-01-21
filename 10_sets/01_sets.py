@@ -30,3 +30,39 @@ for e in s:
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
+
+
+'''
+• if clause in sets
+'''
+s = {True, 'python', 33, 3.3, 'python', False, True}
+
+if 'python' in s:
+  print('Yes')
+else:
+  print('No')
+
+
+print('-------------------------------------------------------------------------------------------------------------------------')
+
+
+'''
+• Set comprehension
+• Set comprehension is used to create new sets from other iterables
+• 
+'''
+s = {i for i in range(0, 5)}
+print(s)  # {0, 1, 2, 3, 4}
+
+s = {i*i for i in range(0, 5)}
+print(s)  # {0, 1, 4, 9, 16}
+
+s = {i for i in range(10) if i % 2 != 0}
+print(s)  # {1, 3, 5, 7, 9}
+
+languages = ['python', 'javascript', 'c', 'c++', 'java', 'carbon']
+print({e for e in languages if len(e) <= 1})  # {'c'}
+print({e for e in languages if 'o' in e})     # {'python', 'carbon'}
+
+
+print('-------------------------------------------------------------------------------------------------------------------------')

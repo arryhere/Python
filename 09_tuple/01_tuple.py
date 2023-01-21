@@ -14,6 +14,9 @@ print(tup, type(tup))  # 1 <class 'int'>
 tup = (1,)
 print(tup, type(tup))  # (1,) <class 'tuple'>
 
+tup = ()
+print(tup, type(tup))  # () <class 'tuple'>
+
 
 print('-------------------------------------------------------------------------------------------------------------------------')
 

@@ -7,16 +7,16 @@ def average(x=5, y=5):
   print(f'The average of {x} and {y} is {avg}')
 
 
-average()  # The average of 5 and 5 is 5.0
-average(5, 9.9)  # The average of 5 and 9.9 is 7.45
+average()         # The average of 5 and 5 is 5.0
+average(5, 9.9)   # The average of 5 and 9.9 is 7.45
 
 
 def name(firstName='John', middleName='Lee', lastName='Doe'):
   print(f'My name is {firstName} {middleName} {lastName}')
 
 
-name()  # My name is John Lee Doe
-name('Lionel', 'Andrés', 'Messi')  # My name is Lionel Andrés Messi
+name()                              # My name is John Lee Doe
+name('Lionel', 'Andrés', 'Messi')   # My name is Lionel Andrés Messi
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
@@ -57,7 +57,7 @@ def name(**name):
   print(f'My name is {name["firstName"]} {name["middleName"]} {name["lastName"]}')
 
 
-name(firstName='Lionel', middleName='Andrés', lastName='Messi')
+name(firstName='Lionel', middleName='Andrés', lastName='Messi')  # My name is Lionel Andrés Messi
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
