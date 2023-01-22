@@ -1,5 +1,7 @@
 
-''' iterating over string '''
+'''
+• iterating over string
+'''
 
 str = 'stirng'
 for char in str:
@@ -9,7 +11,9 @@ for char in str:
 print('-------------------------------------------------------------------------------------------------------------------------')
 
 
-''' iterating over list '''
+'''
+• iterating over list
+'''
 
 list = ['p', 'y', 't', 'h', 'o', 'n']
 for e in list:
@@ -30,7 +34,9 @@ for l in languages:
 print('-------------------------------------------------------------------------------------------------------------------------')
 
 
-''' range() '''
+'''
+• range()
+'''
 
 for i in range(10):
   print(i, end=' ')  # 0 1 2 3 4 5 6 7 8 9
@@ -43,6 +49,29 @@ for i in range(5, 10, 2):
 
 for i in range(10, 1, -1):
   print(i, end=' ')  # 10 9 8 7 6 5 4 3 2
+
+
+print('-------------------------------------------------------------------------------------------------------------------------')
+
+
+'''
+• for loop with else
+• else will execute on successfull loop completion, not on break !
+'''
+
+for e in range(0, 5):
+  print(e)
+else:
+  print('Loop Done !')
+# 0 1 2 3 4 Loop Done !
+
+for e in range(0, 5):
+  print(e)
+  if e == 3:
+    break
+else:
+  print('Loop Done !')
+# 0 1 2 3
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
