@@ -12,7 +12,9 @@ d = {
 }
 
 print(d, type(d))     # {'name': 'Arijit', 'age': 22, 'isAlive': True} <class 'dict'>
-print(d['name'])      # Arijit
+
+d['name'] = 'Rahul'
+print(d['name'])      # Rahul
 print(d['age'])       # 22
 print(d['isAlive'])   # True
 
