@@ -7,7 +7,6 @@
   • Sequenced data: list, tuple
   • Mapped data: dict (dictionary)
   • None
-    
 '''
 
 a = 12345
