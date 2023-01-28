@@ -9,8 +9,4 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  "autopep8.args": [
-    "--indent-size=2",
-    "--max-line-length=130"
-  ],
 }
