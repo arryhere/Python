@@ -1,10 +1,16 @@
 {
   "editor.tabSize": 2,
   "editor.renderWhitespace": "trailing",
-  "editor.rulers": [130],
+  "editor.rulers": [
+    130
+  ],
   "terminal.integrated.scrollback": 100000000,
   "liveServer.settings.port": 5501,
-  "prettier.printWidth": 130,
-  "autopep8.args": ["--indent-size=2", "--max-line-length=130"],
-  // "python.analysis.typeCheckingMode": "strict"
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "autopep8.args": [
+    "--indent-size=2",
+    "--max-line-length=130"
+  ],
 }
