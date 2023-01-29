@@ -6,6 +6,9 @@
   ],
   "terminal.integrated.scrollback": 100000000,
   "liveServer.settings.port": 5501,
+  "[javascript]": {
+    "editor.defaultFormatter": "rome.rome"
+  },
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
