@@ -1,9 +1,10 @@
 /*
 • Pip commands
 
-• pip list -v                                                       // list packages installed
-• python -m pip install --upgrade pip                               // update pip
-• pip install <pkg_name>                                            // install packages
-• pip uninstall <pkg_name>                                          // uninstall packages
+• pip install <pkg_name>                                            # install pkgs
+• pip uninstall <pkg_name>                                          # uninstall pkgs
+• python -m pip install --upgrade pip                               # update pip
+• pip list -v                                                       # list pkgs
+• pip freeze                                                        # list pkgs
 • 
 */
