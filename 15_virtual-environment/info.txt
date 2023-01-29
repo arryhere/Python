@@ -1,0 +1,17 @@
+• Virtual Environment
+• A virtual environment is a tool to isoloate specific python environments on a single machine
+• This allows us to work on multiple projects with different dependencies and packages without conflicts
+• This can be especially useful when working on projects that have conflicting pkg versions or incompatible pkgs
+
+• create : python -m venv <env_name>
+• activate: 
+    wndows: <env_path>\Scripts\activate
+    unix: <env_path>/bin/activate
+• deactivate: decativate
+
+• pip freeze                            # list pkgs
+• pip list -v                           # list pkgs (use this over pip freeze to list pkgs)
+• pip freeze > requirments.txt          # create a txt file with pkgs info
+• pip install -r requirments.txt        # install all pkgs in requirments.txt
+• pip uninstall -r requirments.txt      # uninstall pkg one-by-one
+• pip uninstall -r requirments.txt -y   # uninstall pkgs all-at-once
