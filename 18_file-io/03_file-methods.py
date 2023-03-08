@@ -4,23 +4,14 @@
 • read()
 • readline()
 • readlines()
+• write()
+• writelines()
 '''
 
 import os
 
 os.chdir(os.path.join(os.getcwd(), '18_file-io'))   # D:\Study\Python\18_file-io
 
-
-print('-------------------------------------------------------------------------------------------------------------------------')
-
-
-with open('./readFile.txt', 'r', encoding="utf-8") as f:
-  for line in f:
-    print(line, end='')
-    '''
-    Hello World !
-    I am Python !
-    '''
 
 print('-------------------------------------------------------------------------------------------------------------------------')
 
@@ -82,3 +73,26 @@ with open('./readFile.txt', 'r', encoding="utf-8") as f:
 print('-------------------------------------------------------------------------------------------------------------------------')
 
 
+'''
+• write()
+• writes the contents of string to the file
+• returns the number of characters written
+'''
+with open('./writeFile.txt', 'w', encoding="utf-8") as f:
+  count = f.write(f"Hello World !\nI am JavaScript !\n")
+  print(count)  # 32
+
+
+print('-------------------------------------------------------------------------------------------------------------------------')
+
+
+'''
+• writelines()
+• writes a sequence of strings to a file
+• sequence can be any iterable object, such as a list or a tuple
+'''
+with open('./writeFile.txt', 'w', encoding="utf-8") as f:
+  f.writelines(['Hello World !\n', 'I am JavaScript !\n'])
+
+
+print('-------------------------------------------------------------------------------------------------------------------------')
