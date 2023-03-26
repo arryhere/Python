@@ -21,3 +21,39 @@ print(lesserThanOrEqualTo)      # True
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
+
+
+'''
+• is
+• Tests object identity
+• Returns a Boolean stating whether two objects are the same
+• check exact location in memory
+'''
+
+x = 4
+y = 4
+print(x == y)  # True
+print(x is y)  # True
+
+x = "python"
+y = "python"
+print(x == y)  # True
+print(x is y)  # True
+
+x = [1, 2, 3]
+y = [1, 2, 3]
+print(x == y)  # True
+print(x is y)  # False
+
+x = (1, 2, 3)
+y = (1, 2, 3)
+print(x == y)  # True
+print(x is y)  # True
+
+x = None
+y = None
+print(x == y)  # True
+print(x is y)  # True
+
+
+print('-------------------------------------------------------------------------------------------------------------------------')

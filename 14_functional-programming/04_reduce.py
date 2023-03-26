@@ -26,3 +26,10 @@ print(res)  # 100
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
+
+
+'''
+• References
+• https://docs.python.org/3/library/functools.html#functools.reduce
+• 
+'''
