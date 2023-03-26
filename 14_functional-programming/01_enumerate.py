@@ -1,5 +1,6 @@
 '''
 • enumerate()
+• arguments: enumerate(iterable, start=0)
 • takes iterable and start-index as arguments, default start-index = 0
 • returns tuple of index and element (i, e)
 '''
@@ -39,3 +40,10 @@ for i, e in enumerate(s):
 
 
 print('-------------------------------------------------------------------------------------------------------------------------')
+
+
+'''
+• References
+• https://docs.python.org/3/library/functions.html#enumerate
+• 
+'''

@@ -1,9 +1,11 @@
 
-''' default arguments '''
+'''
+• default arguments
+'''
 
 
 def average(x=5, y=5):
-  avg = (x + y)/2
+  avg = (x + y) / 2
   print(f'The average of {x} and {y} is {avg}')
 
 
@@ -22,7 +24,9 @@ name('Lionel', 'Andrés', 'Messi')   # My name is Lionel Andrés Messi
 print('-------------------------------------------------------------------------------------------------------------------------')
 
 
-''' keyword arguments '''
+'''
+• arguments
+'''
 
 
 def divide(x, y):
@@ -35,26 +39,30 @@ divide(y=5, x=100)  # The division of 100 / 5 is 20.0
 print('-------------------------------------------------------------------------------------------------------------------------')
 
 
-''' variable length arguments '''
+'''
+• variable number of arguments
+• *args (Non-Keyword Arguments)
+• **kwargs (Keyword Arguments)
+'''
 
 
-def average(*numbers):
-  print(numbers, type(numbers))  # (1, 2, 3, 4, 5) <class 'tuple'>
+def average(*args):
+  print(args, type(args))  # (1, 2, 3, 4, 5) <class 'tuple'>
 
   sum = 0
-  for i in numbers:
+  for i in args:
     sum = sum + i
-  avg = sum / len(numbers)
-  print(f'The average of {numbers} is {avg}')
+  avg = sum / len(args)
+  print(f'The average of {args} is {avg}')
 
 
 average(1, 2, 3, 4, 5)  # The average of (1, 2, 3, 4, 5) is 3.0
 
 
-def name(**name):
-  print(name, type(name))  # {'firstName': 'Lionel', 'middleName': 'Andrés', 'lastName': 'Messi'} <class 'dict'>
+def name(**kwargs):
+  print(kwargs, type(kwargs))  # {'firstName': 'Lionel', 'middleName': 'Andrés', 'lastName': 'Messi'} <class 'dict'>
 
-  print(f'My name is {name["firstName"]} {name["middleName"]} {name["lastName"]}')
+  print(f'My name is {kwargs["firstName"]} {kwargs["middleName"]} {kwargs["lastName"]}')
 
 
 name(firstName='Lionel', middleName='Andrés', lastName='Messi')  # My name is Lionel Andrés Messi
@@ -63,7 +71,9 @@ name(firstName='Lionel', middleName='Andrés', lastName='Messi')  # My name is L
 print('-------------------------------------------------------------------------------------------------------------------------')
 
 
-''' return '''
+'''
+• return
+'''
 
 
 def add(*num):

@@ -111,7 +111,7 @@ print('-------------------------------------------------------------------------
 with open('./readFile.txt', 'r', encoding="utf-8") as f:
   print(f.read(1))      # H
   print(f.read(1))      # e
-  f.seek(0)             # Go to the 2nd byte in the file
+  f.seek(0)             # Go to the 0th byte in the file
   print(f.read(1))      # H
   f.seek(2)             # Go to the 2nd byte in the file
   print(f.read(1))      # l
