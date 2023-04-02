@@ -4,7 +4,7 @@
   • int, float, complex
   • string
   • boolean
-  • Sequenced data: list, tuple
+  • Sequenced data: list, tuple, set
   • Mapped data: dict (dictionary)
   • None
 '''
@@ -31,4 +31,4 @@ print(h, type(h), sep=': ')    # {'key': 'value', 'age': 22}: <class 'dict'>
 print(i, type(i), sep=': ')    # None: <class 'NoneType'>
 
 
-print('-------------------------------------------------------------------------------------------------------------------------')
+print('-----------------------------------------------------------------------------------------------------------------------------------')
