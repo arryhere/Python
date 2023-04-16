@@ -1,5 +1,6 @@
 '''
 • filter()
+
 • arguments: filter(function, iterable)
 • returns an iterator from those elements of iterable for which function is true
 • if function is None, the identity function is assumed i.e, all elements of iterable that are false are removed

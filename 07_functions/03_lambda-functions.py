@@ -1,5 +1,6 @@
 '''
 • Lambda Functions
+
 • These are anonymous functions, i.e functons without name
 • 
 '''

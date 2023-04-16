@@ -1,5 +1,6 @@
 '''
-• Docstrings in python
+• Docstrings
+
 • Python docstrings are string literals that appear right after the definition of a function, method, class or module
 '''
 

@@ -1,3 +1,12 @@
+'''
+• Tuple Methods
+
+• 
+• 
+• 
+• 
+'''
+
 
 '''
 • tuple indexing

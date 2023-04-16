@@ -1,7 +1,8 @@
 '''
 • Constructors
-• often classes like to create objects with instances customized to a specific initial state, thus may define a special method named __init__()
-• when a class defines an __init__() method, class instantiation automatically invokes __init__() for the newly created class instance
+
+• Often classes like to create objects with instances customized to a specific initial state, thus may define a special method named __init__()
+• When a class defines an __init__() method, class instantiation automatically invokes __init__() for the newly created class instance
 • __init__() returns None
 '''
 

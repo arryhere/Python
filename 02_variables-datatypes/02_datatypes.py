@@ -1,8 +1,8 @@
 '''
 • DataTypes
 
-• datatype specifies the type of value a variable holds
-• python has the following datatypes:
+• Datatype specifies the type of value a variable holds
+• Python has the following datatypes:
   • int, float, complex
   • string
   • boolean

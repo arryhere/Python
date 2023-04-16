@@ -1,9 +1,9 @@
 '''
 • Typecasting / Type conversion
 
-• conversion of one data type into the other data type is known as type casting
-• functions or methods like: int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(), etc. for the type casting in python
-• types of Typecasting:
+• Conversion of one data type into the other data type is known as type casting
+• Functions or methods like: int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(), etc. for the type casting in python
+• Types of Typecasting:
   • explicit type casting/Explicit Conversion
   • implicit type casting/Implicit Conversion
 '''

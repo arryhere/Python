@@ -1,7 +1,7 @@
 '''
 • Arithmetic Operators
 
-• used to performing mathematical operations like addition, subtraction, multiplication, and division
+• Arithmetic Operators are ussed to performing mathematical operations like addition, subtraction, multiplication, and division
 '''
 
 add = 10 + 5

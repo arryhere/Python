@@ -1,5 +1,6 @@
 '''
 • Decorators
+
 • It is a function that takes a function as argument and extends the behavior of the latter function without explicitly modifying it
 • It allows a user to add new functionality to an existing object without modifying its structure
 • It provide a simple syntax for calling Higher-order functions

@@ -1,8 +1,8 @@
 '''
 • Bitwise Operators
 
-• it acts on bits and perform the bit-by-bit operations
-• these are used to operate on binary numbers
+• Bitwise Operators acts on bits and perform the bit-by-bit operations
+• These are used to operate on binary numbers
 
   Operator	 Description	    Syntax
   &	         Bitwise AND	    x & y
@@ -45,29 +45,29 @@ print('-------------------------------------------------------------------------
 • Here the bits in () represent the MSB, i.e bit that determine the sign
 '''
 
-print(bin(45))    # 0b101101
-print(bin(~45))   # -0b101101 <-46>
+print(bin(45))                                        # 0b101101
+print(bin(~45))                                       # -0b101110 <-46>
 '''
-~ (0)101101 = (1)010010                             -> what we expect, but we need to convert it to its 2's complement
-1's complement of 010010 = 101101                   -> invert bits of 010010 excluding the MSB (1)
-2's complement of 101101 = 101110                   -> add 1 bit to 101101
-~ 0b101101 = -0b101101                              -> thus ~45 = -46
+~ (0)101101 = (1)010010                               # what we expect, but we need to convert it to its 2's complement to store in memory
+1's complement of 010010 = 101101                     # invert bits of 010010 excluding the MSB (1)
+2's complement of 101101 = 101110                     # add 1 bit to 101101
+~ (0b)101101 = (-0b)101110                            # thus ~45 = -46
 '''
 
 print('-----------------------------------------------------------------------------------------------------------------------------------')
 
 
-print(bin(-13))   # -0b1101
-print(bin(~-13))  # 0b1100 <12>
+print(bin(-13))                                       # -0b1101
+print(bin(~-13))                                      # 0b1100 <12>
 '''
-we store -ve numbers after conversion, so to use -ve numbers we must reverse convert them first
--13 = (1)1101                                       -> binary of 13 as stored in python
-1's complement of 1101 = 0010                       -> reverse 1's complement, invert the bits of 1101 excluding the MSB (1)
-2's complement of 0010 = 0011                       -> everse 2's complement, add 1 bit to 0010
+we store -ve numbers in memory after conversion, so to use -ve numbers we must reverse convert them
+-13 = (1)1101                                         # binary of -13 as stored in python
+1's complement of 1101 = 0010                         # reverse 1's complement, invert the bits of 1101 excluding the MSB (1)
+2's complement of 0010 = 0011                         # reverse 2's complement, add 1 bit to 0010
 
 now do NOT operation
-~ (1)0011 = (0)1100                                 -> final result of bitwise not
-~ -0b1101 = 0b1100                                  -> thus ~-13 = 12
+~ (1)0011 = (0)1100                                   # final result of bitwise not
+~ (-0b)1101 = (0b)1100                                # thus ~-13 = 12
 '''
 
 

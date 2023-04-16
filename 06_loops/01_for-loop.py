@@ -1,3 +1,9 @@
+'''
+• For Loop
+
+• 
+'''
+
 
 '''
 • iterating over string

@@ -1,5 +1,6 @@
 '''
 • Raising custom errors
+
 • 'raise' keyword to raise custom errors
 '''
 

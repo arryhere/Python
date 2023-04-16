@@ -1,5 +1,6 @@
 '''
 • File IO
+
 • open() function to open a file, open() returns a file object
 • open(filename, mode, encoding=None)
 • mode: 

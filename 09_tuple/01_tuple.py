@@ -1,5 +1,6 @@
 '''
 • Python Tuples
+
 • Tuples are ordered collection of data items
 • Tuple items are seperated by commas and enclosed within round brackets ()
 • Tuples are immutable (cannot change), we cannot alter them after initialization

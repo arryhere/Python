@@ -2,6 +2,7 @@
 • Local variable
   • variable that is defined within a function and is only accessible within that function
   • it is created when the function is called and is destroyed when the function returns
+
 • Global variable
   • variable that is defined outside of a function and is accessible anywhere in your code file
 '''

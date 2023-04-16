@@ -1,3 +1,12 @@
+'''
+• List Methods
+
+• 
+• 
+• 
+• 
+'''
+
 
 '''
 • list indexing

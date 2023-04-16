@@ -1,8 +1,8 @@
 '''
 • Variable
 
-• variable is like a container that holds data, just like a container that holds stuff
-• creating a variable is like creating a placeholder in memory and assigning it some value
+• Variable is like a container that holds data, just like a container that holds stuff
+• Creating a variable is like creating a placeholder in memory and assigning it some value
 '''
 
 a = 12345

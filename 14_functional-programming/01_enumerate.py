@@ -1,5 +1,6 @@
 '''
 • enumerate()
+
 • arguments: enumerate(iterable, start=0)
 • takes iterable and start-index as arguments, default start-index = 0
 • returns tuple of index and element (i, e)

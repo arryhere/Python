@@ -1,5 +1,6 @@
 '''
 • Python Sets
+
 • Sets are unordered collection of data items
 • They store multiple ites in a single variable
 • Set items are seperated by commas and enclosed within curly brackets {}

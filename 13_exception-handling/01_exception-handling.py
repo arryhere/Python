@@ -1,5 +1,6 @@
 '''
-• Error/Exception Handling
+• Error / Exception Handling
+
 • Exception handling is the process of responding to unwanted or unexpected events when a computer program runs
 • Exception handling deals with these events to avoid the program or system from crashing
 • Exceptions disrupt the normal flow of the program

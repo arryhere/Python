@@ -1,5 +1,6 @@
 '''
 • map()
+
 • arguments: map(function, iterable, *iterable)
 • return an iterator that applies function to every item of iterable, yielding the results
 • for additional iterables, function must take that many arguments and is applied to the items from all iterables in parallel

@@ -1,5 +1,6 @@
 '''
 • Python Dictionaries
+
 • Dictionaries are ordered collection of data items
 • Dictionary items are 'key-value' pairs that are seperated by comma and enclosed within curly braces
 '''

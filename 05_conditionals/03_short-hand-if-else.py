@@ -1,7 +1,9 @@
 '''
 • Short-hand if-else
+
 • 
 '''
+
 
 x = int(input('Enter x: '))
 y = int(input('Enter y: '))

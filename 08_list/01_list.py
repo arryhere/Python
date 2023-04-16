@@ -1,5 +1,6 @@
 '''
 • Python Lists
+
 • Lists are ordered collection of data items
 • They store multiple items in a single variable
 • For context its's just like Arrays from other programming languages

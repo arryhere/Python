@@ -5,6 +5,7 @@
   • each class instance can have attributes attached to it for maintaining its state
   • class instances can also have methods (defined by its class) for modifying its state
   • 
+
 • Object
   • object is the instance of a class
   • used to access the properties and methods of a class

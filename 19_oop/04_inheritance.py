@@ -1,5 +1,6 @@
 '''
 • Inheritance
+
 • Inheritance is when a class is derived from another class
 • child-class or sub-class inherit methods and variables from parent-class or base-class
 • it allows the programmer to use fewer lines of code, decreasing redundancy and increasing code re-usability
