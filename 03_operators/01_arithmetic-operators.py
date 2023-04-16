@@ -1,6 +1,7 @@
 '''
 • Arithmetic Operators
-• Used to performing mathematical operations like addition, subtraction, multiplication, and division
+
+• used to performing mathematical operations like addition, subtraction, multiplication, and division
 '''
 
 add = 10 + 5
@@ -22,4 +23,9 @@ print(exp)            # 125
 
 print('-----------------------------------------------------------------------------------------------------------------------------------')
 
-# check for module operator in python positive deviation
+
+'''
+• References
+• module operator +ve deviation : https://stackoverflow.com/questions/3883004/how-does-the-modulo-operator-work-on-negative-numbers-in-python
+• 
+'''

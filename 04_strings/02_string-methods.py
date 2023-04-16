@@ -1,3 +1,12 @@
+'''
+• String Methods
+
+• 
+• 
+• 
+• 
+'''
+
 
 '''
 • str[i:j:k]

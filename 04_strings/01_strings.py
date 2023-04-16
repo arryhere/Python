@@ -1,5 +1,7 @@
 '''
-• String are immutable in python
+• String
+
+• strings are immutable in python
 '''
 
 

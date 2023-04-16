@@ -1,6 +1,6 @@
 import os
 
-path = os.path.join(os.getcwd(), '17_modules', '01_os', 'data')  # D:\Study\Python\17_modules\01_os\data
+path = os.path.join(os.getcwd(), '17_modules', '01_os', 'data')  # D:\Study\Python\17_modules\os\data
 
 if (not os.path.exists(path)):
   os.mkdir(path)

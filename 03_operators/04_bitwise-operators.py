@@ -1,7 +1,8 @@
 '''
 • Bitwise Operators
-• Bitwise operators act on bits and perform the bit-by-bit operations
-• These are used to operate on binary numbers
+
+• it acts on bits and perform the bit-by-bit operations
+• these are used to operate on binary numbers
 
   Operator	 Description	    Syntax
   &	         Bitwise AND	    x & y

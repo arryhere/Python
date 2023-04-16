@@ -1,3 +1,10 @@
+'''
+• f-strngs
+
+• 
+• 
+'''
+
 
 text1 = 'Hello my name is {0}, and i am from {1}'
 text2 = 'Hello my name is {1}, and i am from {0}'

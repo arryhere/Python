@@ -1,6 +1,7 @@
 '''
-• Comparison Operators
-• Comparison or Relational operators compares the values. It either returns True or False according to the condition
+• Comparison Operators / Relational operators
+
+• compares the values. It either returns True or False according to the condition
 '''
 x = 5
 y = 10

@@ -1,6 +1,7 @@
 '''
 • Assignment Operators
-• Assignment operators are used to assign values to the variables
+
+• used to assign values to the variables
 '''
 
 x = 5
