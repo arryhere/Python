@@ -22,8 +22,9 @@
     "editor.defaultFormatter": "rome.rome"
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8"
+    "editor.defaultFormatter": "ms-python.autopep8",
   },
   "liveServer.settings.port": 5501,
-  "rome.requireConfiguration": true
+  "rome.requireConfiguration": true,
+  "python.analysis.typeCheckingMode": "off"
 }

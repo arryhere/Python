@@ -39,6 +39,13 @@ class Developer(Employee):
   def languages(self):
     return ['JavaScript', 'Python', 'React', 'Nodejs', 'SQL']
 
+  def employeeInfo(self):
+    return {
+        "name": self.name,
+        "company": self.company,
+        "country": self.country
+    }
+
 
 emp1 = Employee('Arijit', 23, 'Computer')
 print(emp1.employeeInfo())    # {'name': 'Arijit', 'age': 23, 'domain': 'Computer', 'company': 'Microsoft', 'country': 'USA'}
@@ -46,6 +53,7 @@ print(emp1.employeeInfo())    # {'name': 'Arijit', 'age': 23, 'domain': 'Compute
 dev1 = Developer('Divya', 22, 'Architecture')
 print(dev1.languages())       # ['JavaScript', 'Python', 'React', 'Nodejs', 'SQL']
 print(dev1.age)               # 22
+print(dev1.employeeInfo())    # {'name': 'Divya', 'company': 'Microsoft', 'country': 'USA'}
 
 
 print('-----------------------------------------------------------------------------------------------------------------------------------')
