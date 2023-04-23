@@ -24,7 +24,9 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8",
   },
-  "liveServer.settings.port": 5501,
   "rome.requireConfiguration": true,
-  "python.analysis.typeCheckingMode": "off"
+  "python.analysis.typeCheckingMode": "off",
+  "liveServer.settings.host": "127.0.0.1",
+  "liveServer.settings.port": 5501,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "C:\\Program Files\\chromium\\chrome.exe"
 }

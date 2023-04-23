@@ -1,5 +1,5 @@
 '''
-• Static Method
+• Static Methods
 
 • Static methods in python are methods that belong to class, rather than an instance of a class
 • @staticmethod decorator -> used to declare static methods
@@ -33,4 +33,3 @@ print(Math.mul(2, 2, 2))        # 8
 
 
 print('-----------------------------------------------------------------------------------------------------------------------------------')
-

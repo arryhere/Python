@@ -12,8 +12,8 @@
   • 
 
 • self keyword
-  • self parameter is a reference to the current instance of the class
-  • it is used to access properties that belongs to the class
+  • self parameter is a reference to the current instance of the class (current object)
+  • it is used to access properties that belongs to the class of which the instance is created
 '''
 
 
@@ -41,3 +41,7 @@ print(a.name)       # Rahul
 print(a.age)        # 24
 print(a.role)       # Architecture
 print(a.getInfo())  # name: Rahul, age: 24, role: Architecture
+
+
+print('-----------------------------------------------------------------------------------------------------------------------------------')
+
