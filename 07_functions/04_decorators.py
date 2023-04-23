@@ -10,9 +10,6 @@
 '''
 
 
-import time
-
-
 def decorator(fx):
   def wrapper():
     print('i am decorator')
@@ -79,6 +76,8 @@ inside wrapper 2 4
 
 
 print('-----------------------------------------------------------------------------------------------------------------------------------')
+
+import time
 
 
 def calcTime(fx: function):

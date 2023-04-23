@@ -10,6 +10,10 @@
   • object is the instance of a class
   • used to access the properties and methods of a class
   • 
+
+• self keyword
+  • self parameter is a reference to the current instance of the class
+  • it is used to access properties that belongs to the class
 '''
 
 
@@ -17,12 +21,6 @@ class Person:       # class
   name = 'Arijit'
   age = 22
   role = 'Dev Ops'
-
-  '''
-  • self
-  • self parameter is a reference to the current instance of the class
-  • it is used to access properties that belongs to the class
-  '''
 
   def getInfo(self):
     return f"name: {self.name}, age: {self.age}, role: {self.role}"

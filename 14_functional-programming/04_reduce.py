@@ -1,7 +1,7 @@
 '''
 • reduce()
 
-• arguments: reduce(function, iterable)
+• arguments: reduce(function, iterable, initial)
 • apply function of two arguments cumulatively to the items of iterable, from left to right, to reduce the iterable to a single value
 • 
 '''
