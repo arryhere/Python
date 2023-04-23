@@ -60,11 +60,11 @@ class Employee:
   @classmethod
   def setClass1(cls, infoString: str, seperator: str):
     ls = infoString.split(seperator)
-    return cls(ls[0], ls[1])
+    return cls(ls[0], int(ls[1]))
 
   def setClass2(infoString: str, seperator: str):
     ls = infoString.split(seperator)
-    return Employee(ls[0], ls[1])
+    return Employee(ls[0], int(ls[1]))
 
   def info(self):
     return {"name": self.name, "salary": self.salary}
