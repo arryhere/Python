@@ -74,10 +74,10 @@ e1 = Employee('Arijit', 1200)
 print(e1.info())                              # {'name': 'Arijit', 'salary': 1200}
 
 e2 = Employee.setClass1('Divya-5000', '-')
-print(e2.info())                              # {'name': 'Arijit', 'salary': 1200}
+print(e2.info())                              # {'name': 'Divya', 'salary': 5000}
 
 e3 = Employee.setClass2('Bhavika-2000', '-')  # can also be done like this
-print(e3.info())                              # {'name': 'Arijit', 'salary': 1200}
+print(e3.info())                              # {'name': 'Bhavika', 'salary': 2000}
 
 
 print('-----------------------------------------------------------------------------------------------------------------------------------')
