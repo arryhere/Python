@@ -1,8 +1,9 @@
 '''
 • Dunder methods
 
-• 
-• 
+• They're special methods that you can define to add "magic" to your classes
+• They're always surrounded by double underscores (e.g. __init__ or __lt__)
+• They are incredibly powerful tools that allow you to customize the behaviour of your objects, and can make your code much cleaner and easier to understand
 • 
 '''
 
@@ -34,15 +35,12 @@ class Vector:
 v1 = Vector(44, 23)
 v2 = Vector(2, 7)
 
-v3 = v1 + v2
-v4 = v1 * v2
-
+v3 = v1 + v2                          # __add__ is working here
 print(v3)                             # (46 30)
+print(len(v3))                        # __len__ is working here | 2
 
+v4 = v1 * v2                          # __mul__ is working here
 print(v4)                             # (88, 161)
-
-print(len(v3))                        # 2
-
 v4()                                  # (88, 161) is called
 
 
