@@ -1,5 +1,5 @@
 '''
-• Dunder methods
+• Dunder methods / Magic Methods
 
 • They're special methods that you can define to add "magic" to your classes
 • They're always surrounded by double underscores (e.g. __init__ or __lt__)

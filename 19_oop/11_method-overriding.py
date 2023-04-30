@@ -7,15 +7,15 @@
 • Each type can provide its own independent implementation of this interface
 
 • Different types of polymorphism
-  • compile-time polymorphism   -> Method overloading
-  • runtime polymorphism        -> Method overriding
+  • compile-time polymorphism   / static polymorphism       -> Method overloading
+  • runtime polymorphism        / dynamic polymorphism      -> Method overriding
 
 • Method overloading
   • Python does not support method overloading
-  • 
+  • Same methods having different signatures
 
 • Method overriding
-  • 
+  • Same methods having same signatures but different class connected by inheritance
 '''
 
 
@@ -32,3 +32,6 @@ class B(A):
 
 obj = B()
 obj.info()    # class B
+
+
+print('-----------------------------------------------------------------------------------------------------------------------------------')
