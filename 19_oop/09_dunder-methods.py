@@ -16,6 +16,9 @@ class Vector:
   def __del__(self):
     print(f"{self} is destroyed")       # <__main__.Person object at 0x00000293E3C8EF10> is destroyed
 
+  def __str__(self):
+    return f"({self.x}, {self.y})"
+  
   def __repr__(self):
     return f"({self.x}, {self.y})"
 

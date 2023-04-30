@@ -1,11 +1,21 @@
 '''
 • Operator Overloading
 
-• It allows developers to redefine the behavior of mathematical and comparison operators for custom data types
+• It allows developers to redefine the behavior of operators for custom data types
 • This means that you can use the standard mathematical operators (+, -, *, /, etc.) and comparison operators (>, <, ==, etc.) in your own classes
 • Operator overloading allows you to create more readable and intuitive code
 • 
 '''
+
+
+a = 5
+b = 4
+
+print(a + b)                # 9 , the momement we use + operator it will call __add__ method
+print(int.__add__(a, b))    # 9
+
+
+print('-----------------------------------------------------------------------------------------------------------------------------------')
 
 
 class Tensor:
@@ -36,10 +46,10 @@ v2 = Tensor(4, 5, 6)
 print(v1)             # x: 1, y: 2, z: 3
 print(v2)             # x: 4, y: 5, z: 6
 
-v3 = v1 + v2
-v4 = v1 - v2
-v5 = v1 * v2
-v6 = v1 / v2
+v3 = v1 + v2          # Tensor.__add__(v1, v2)      | v1.__add__(v2)
+v4 = v1 - v2          # Tensor.__sub__(v1, v2)      | v1.__sub__(v2)
+v5 = v1 * v2          # Tensor.__mul__(v1, v2)      | v1.__mul__(v2)
+v6 = v1 / v2          # Tensor.__truediv__(v1, v2)  | v1.__truediv__(v2)
 
 print(v3)             # x: 5, y: 7, z: 9
 print(v4)             # x: -3, y: -3, z: -3
