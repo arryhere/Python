@@ -1,4 +1,4 @@
 [tool.autopep8]
-indent_size=2
-max_line_length=140
+indent_size = 2
+max_line_length = 140
 ignore = ["E731"]
