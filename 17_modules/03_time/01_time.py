@@ -234,3 +234,15 @@ print(time.struct_time((2023, 5, 7, 10, 30, 0, 0, 0, 0)))
 
 
 print('-----------------------------------------------------------------------------------------------------------------------------------')
+
+
+'''
+• asctime()
+
+• Convert a tuple or struct_time representing a time as returned by gmtime() or localtime() to a string of the following form: 'Sun Jun 20 23:21:05 1993'
+• 
+'''
+print(time.asctime(time.localtime()))   # Sun May  7 23:36:14 2023
+
+
+print('-----------------------------------------------------------------------------------------------------------------------------------')
