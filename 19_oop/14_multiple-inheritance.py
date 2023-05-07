@@ -39,5 +39,8 @@ Class Base2
 child.show()        # I am Base1
 
 print(Child.mro())  # [<class '__main__.Child'>, <class '__main__.Base1'>, <class '__main__.Base2'>, <class 'object'>]
-print(Base2.mro())
-print(Base1.mro())
+print(Base2.mro())  # [<class '__main__.Base2'>, <class 'object'>]
+print(Base1.mro())  # [<class '__main__.Base1'>, <class 'object'>]
+
+
+print('-----------------------------------------------------------------------------------------------------------------------------------')
