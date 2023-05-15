@@ -5,6 +5,10 @@
     140
   ],
   "editor.suggest.selectionMode": "always",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.rome": true
+  },
+  "editor.formatOnSave": true,
   "explorer.autoReveal": false,
   "explorer.compactFolders": false,
   "terminal.integrated.scrollback": 100000000,
