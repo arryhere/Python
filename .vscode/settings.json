@@ -28,7 +28,7 @@
     "editor.defaultFormatter": "rome.rome"
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.defaultFormatter": "ms-python.autopep8"
   },
   "rome.requireConfiguration": true,
   "python.analysis.typeCheckingMode": "off",

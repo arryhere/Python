@@ -17,6 +17,10 @@
       "recommended": true
     }
   },
+  "organizeImports": {
+    "enabled": true,
+    "ignore": ["node_modules"]
+  },
   "javascript": {
     "formatter": {
       "quoteStyle": "single",
