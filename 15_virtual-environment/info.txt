@@ -9,9 +9,9 @@
     unix: <env_path>/bin/activate
 • deactivate: decativate
 
-• pip freeze                            # list pkgs
-• pip list -v                           # list pkgs (use this over pip freeze to list pkgs)
-• pip freeze > requirements.txt          # create a txt file with pkgs info
-• pip install -r requirements.txt        # install all pkgs in requirements.txt
-• pip uninstall -r requirements.txt      # uninstall pkg one-by-one
-• pip uninstall -r requirements.txt -y   # uninstall pkgs all-at-once
+• pip freeze                                [ list pkgs ]
+• pip list -v                               [ list pkgs (use this over pip freeze to list pkgs) ]
+• pip freeze > requirements.txt             [ create a txt file with pkgs info ]
+• pip install -r requirements.txt           [ install all pkgs in requirements.txt ]
+• pip uninstall -r requirements.txt         [ uninstall pkg one-by-one ]
+• pip uninstall -r requirements.txt -y      [ uninstall pkgs all-at-once ]

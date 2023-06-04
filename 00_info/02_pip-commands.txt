@@ -1,10 +1,16 @@
 /*
 • Pip commands
 
-• pip install <pkg_name>                                            # install pkgs
-• pip uninstall <pkg_name>                                          # uninstall pkgs
-• python -m pip install --upgrade pip                               # update pip
-• pip list -v                                                       # list pkgs
-• pip freeze                                                        # list pkgs
-• 
+• pip install <pkg_name>                    [ install pkgs ]
+• pip uninstall <pkg_name>                  [ uninstall pkgs ]
+
+• python -m pip install --upgrade pip       [ update pip ]
+
+• pip list -v                               [ list pkgs (use this over pip freeze to list pkgs) ]
+• pip freeze                                [ list pkgs ]
+
+• pip freeze > requirements.txt             [ create a txt file with pkgs info ]
+• pip install -r requirements.txt           [ install all pkgs in requirements.txt ]
+• pip uninstall -r requirements.txt         [ uninstall pkg one-by-one ]
+• pip uninstall -r requirements.txt -y      [ uninstall pkgs all-at-once ]
 */
